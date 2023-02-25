@@ -57,10 +57,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  left: 0;
-  bottom: 40px;
-  padding: 40px 80px 0;
+  bottom: 0;
+  padding: 0 80px 40px 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .header__paragraph {
@@ -70,6 +70,10 @@
   margin: 0;
 }
 
-.header__footer_address {
-  margin-right: 5px;
+.header__hours {
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
 }
