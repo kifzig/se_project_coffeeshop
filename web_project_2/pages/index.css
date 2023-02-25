@@ -1,0 +1,7 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/logo.css");
+@import url("../blocks/nav.css");
+/* import other .css files after this */
+/* font-family: "Noto Serif", "Times New Roman", serif; */
