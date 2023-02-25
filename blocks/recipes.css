@@ -47,6 +47,8 @@
 
 .recipes__iframe {
   border: none;
+  width: "470";
+  height: "273";
 }
 
 .recipes__video-captions {
