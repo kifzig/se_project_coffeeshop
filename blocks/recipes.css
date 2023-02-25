@@ -8,8 +8,9 @@
   color: #ffffff;
   font-family: "Inter", Arial, sans-serif;
   padding-top: 100px;
+  /*
   padding-right: 80px;
-  padding-left: 30px;
+  padding-left: 30px;*/
   max-block-size: 800px;
   min-block-size: 720px;
   height: 100vh;
@@ -36,10 +37,21 @@
   justify-content: center;
   column-gap: 40px;
   margin-top: 80px;
+  margin-bottom: 215px;
+}
+
+.recipes__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .recipes__iframe {
   border: none;
+}
+
+.recipes__video-captions {
+  display: flex;
+  justify-content: space-between;
 }
 
 .recipes__video-caption {
