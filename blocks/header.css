@@ -10,6 +10,9 @@
   padding-top: 30px;
   padding-right: 80px;
   padding-left: 30px;
+  max-block-size: 800px;
+  min-block-size: 720px;
+  height: 100vh;
 }
 
 .header__title {
@@ -49,17 +52,24 @@
 }
 
 .header__footer {
+  width: 100%;
+  position: absolute;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  left: 0;
   bottom: 40px;
-  right: 80px;
+  padding: 40px 80px 0;
+  box-sizing: border-box;
 }
 
 .header__paragraph {
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
   color: #6f6f6f;
+  margin: 0;
+}
+
+.header__footer_address {
+  margin-right: 5px;
 }
