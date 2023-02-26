@@ -10,8 +10,9 @@
   max-block-size: 800px;
   min-block-size: 720px;
   height: 100vh;
-  padding-top: 100px;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -20,6 +21,7 @@
   line-height: 52px;
   margin-bottom: 80px;
   text-align: center;
+  margin-top: 0;
 }
 
 .reservation__form {

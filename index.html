@@ -103,10 +103,12 @@
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
+                class="form__input"
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Name Surname"
+                required
               />
             </fieldset>
 
@@ -115,34 +117,44 @@
                 >Number of guests *</label
               >
               <input
+                class="form__input"
                 type="number"
                 id="number_of_guests"
                 name="number_of_guests"
                 min="1"
                 max="8"
                 placeholder="1-8"
+                required
               />
             </fieldset>
             <fieldset class="form__fieldset">
               <label for="datetime" class="form__label">Date & time *</label>
-              <input id="datetime" name="datetime" type="datetime-local" />
+              <input
+                id="datetime"
+                name="datetime"
+                type="datetime-local"
+                class="form__input"
+                required
+              />
             </fieldset>
             <fieldset class="form__fieldset">
               <label for="email" class="form__label">Your email *</label>
               <input
+                class="form__input"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <fieldset class="form__fieldset">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset">
-              <label for="agree_terms_of_use"
-                >I agree with the terms of use.
-                <input type="checkbox" />
+              <label for="agree_terms_of_use" class="form__label_type_checkbox"
+                ><input type="checkbox" class="form__checkbox" checked />
+                <div>I agree with the terms of use.</div>
               </label>
             </fieldset>
           </form>
