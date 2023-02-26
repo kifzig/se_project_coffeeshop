@@ -5,6 +5,7 @@
   background-position: center;
   background-size: cover;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .menu__titles {
@@ -29,4 +30,7 @@
 
 .menu__cards {
   display: flex;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
