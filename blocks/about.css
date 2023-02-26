@@ -1,0 +1,33 @@
+.about {
+  background-color: #0a2850;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content {
+  display: flex;
+  max-width: 660px;
+  flex-direction: column;
+  margin-top: 119px;
+  margin-bottom: 173px;
+  margin-right: 80px;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+}
