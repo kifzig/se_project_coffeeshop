@@ -1,0 +1,32 @@
+.menu {
+  background-color: #ffffff;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.menu__titles {
+  margin: 0 auto;
+  max-width: 780px;
+  text-align: center;
+}
+
+.menu__title {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  margin-bottom: 100px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+}

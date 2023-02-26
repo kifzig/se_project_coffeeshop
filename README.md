@@ -14,3 +14,5 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 Add your ideas here :)
+
+- One improvement for the future would be to capture the data from the form and place it into a database.

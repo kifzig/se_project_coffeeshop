@@ -7,7 +7,6 @@
     <meta name="author" content="Kif Francis" />
     <meta name="description" content="Coffeshop website for the library" />
     <meta name="keywords" content="Coffee, Library, Tutorials" />
-    <link rel="stylsheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" type="text/css" href="pages/index.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -168,7 +167,28 @@
           </form>
         </section>
 
-        <section class="menu" id="menu"><h2>Menu</h2></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title menu__titles">Menu</h2>
+          <p class="menu__subtitle menu__titles">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="card">
+            <h3 class="card__title">Filter</h3>
+            <ul>
+              <li class="card__list_item">
+                Regular (12 oz)<span class="card__list-divider"></span>
+                $1
+              </li>
+              <li class="card__list_item">
+                Large (16 oz) <span class="card__list-divider"></span>
+                $1.25
+              </li>
+            </ul>
+          </div>
+          <h3 class="card__title">Espresso</h3>
+          <h3 class="card__title">Baked Goods</h3>
+        </section>
 
         <section class="about" id="about"><h2>About</h2></section>
       </main>

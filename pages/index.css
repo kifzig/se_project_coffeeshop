@@ -6,6 +6,5 @@
 @import url("../blocks/recipes.css");
 @import url("../blocks/reservation.css");
 @import url("../blocks/form.css");
-
-/* import other .css files after this */
-/* font-family: "Noto Serif", "Times New Roman", serif; */
+@import url("../blocks/card.css");
+@import url("../blocks/menu.css");
