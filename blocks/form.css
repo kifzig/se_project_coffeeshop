@@ -1,0 +1,33 @@
+.form {
+  font-weight: 500px;
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
+
+.form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+}
+
+.form__button {
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+}
