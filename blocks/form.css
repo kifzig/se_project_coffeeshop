@@ -14,10 +14,12 @@
 .form__label {
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 8px;
 }
 
 .form__input {
   border-radius: 4px;
+  margin-bottom: 32px;
 }
 
 .form__button {
@@ -26,6 +28,12 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #ffffff;
+  height: 60px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition: opacity 0.75s ease-in;
 }
 
 .form__checkbox {
