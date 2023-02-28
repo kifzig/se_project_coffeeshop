@@ -4,12 +4,18 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .about__title {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 251px;
+  margin-top: 100px;
+  margin-left: 80px;
+  z-index: 2;
 }
 
 .about__content {
@@ -26,8 +32,16 @@
   font-size: 20px;
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  z-index: 2;
 }
 
 .about__circle {
   background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: -152px;
+  left: -129px;
 }
