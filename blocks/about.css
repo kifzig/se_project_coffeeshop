@@ -45,3 +45,24 @@
   top: -152px;
   left: -129px;
 }
+
+.about__circle_animation_blurred {
+  animation-name: pulsate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
