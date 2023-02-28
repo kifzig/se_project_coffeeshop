@@ -10,6 +10,7 @@
   padding-top: 30px;
   padding-right: 80px;
   padding-left: 30px;
+  box-sizing: border-box;
   max-block-size: 800px;
   min-block-size: 720px;
   height: 100vh;
