@@ -13,6 +13,7 @@
   max-block-size: 800px;
   min-block-size: 720px;
   height: 100vh;
+  z-index: 0;
 }
 
 .header__title {
@@ -25,7 +26,6 @@
   margin-bottom: 28px;
   margin-top: 202px;
   margin-left: 80px;
-  z-index: 2;
 }
 
 .header__span-accent {
@@ -43,7 +43,8 @@
   line-height: 30px;
   max-width: 683px;
   margin-left: 80px;
-  z-index: 2;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header__image {
@@ -52,7 +53,7 @@
   height: 568px;
   right: 5px;
   top: 124px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {

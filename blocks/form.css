@@ -20,9 +20,13 @@
 }
 
 .form__input {
+  font-size: 16px;
+  line-height: 20px;
   border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
+  color: #838383;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
@@ -40,6 +44,7 @@
   color: #ffffff;
   height: 60px;
   margin-bottom: 32px;
+  border: 0;
 }
 
 .form__button:hover {

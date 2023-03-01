@@ -15,13 +15,15 @@
 }
 
 .menu__title {
-  margin-bottom: 24px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .menu__subtitle {
+  margin-top: 24px;
   margin-bottom: 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;

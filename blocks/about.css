@@ -16,6 +16,7 @@
   margin-top: 100px;
   margin-left: 80px;
   z-index: 2;
+  margin-bottom: 0;
 }
 
 .about__content {
@@ -28,11 +29,16 @@
 }
 
 .about__paragraph {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", serif;
   z-index: 2;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 .about__circle {

@@ -13,6 +13,7 @@
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 120px;
+  font-style: normal;
 }
 
 .reservation__title {
@@ -25,6 +26,5 @@
 }
 
 .reservation__form {
-  font-style: normal;
   margin: 0 auto;
 }
