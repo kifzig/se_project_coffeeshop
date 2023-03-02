@@ -8,12 +8,6 @@
   padding-bottom: 100px;
 }
 
-.menu__titles {
-  margin: 0 auto;
-  max-width: 780px;
-  text-align: center;
-}
-
 .menu__title {
   font-weight: 500;
   font-size: 44px;
@@ -25,14 +19,18 @@
 .menu__subtitle {
   margin-top: 24px;
   margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  text-align: center;
+  max-width: 780px;
 }
 
 .menu__cards {
   display: flex;
-  column-gap: 100px;
+  gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
 }

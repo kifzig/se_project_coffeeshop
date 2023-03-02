@@ -7,12 +7,9 @@
   position: relative;
   color: #ffffff;
   font-family: "Inter", Arial, sans-serif;
+  box-sizing: border-box;
   padding-top: 100px;
-  /*
-  padding-right: 80px;
-  padding-left: 30px;*/
-  max-block-size: 800px;
-  min-block-size: 720px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -40,7 +37,6 @@
   justify-content: center;
   column-gap: 40px;
   margin-top: 80px;
-  margin-bottom: 215px;
 }
 
 .recipes__content {

@@ -18,10 +18,9 @@
   color: #000000;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.5s ease-in;
-  margin-bottom: 0;
 }
 
 .nav__link:hover {
   color: #2f80ed;
+  transition: color 0.5s ease-in;
 }
