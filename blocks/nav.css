@@ -8,8 +8,10 @@
   display: flex;
   column-gap: 20px;
   list-style-type: none;
+  padding-left: 0;
   align-items: center;
   margin-top: 0;
+  margin-bottom: 0;
   margin-right: 80px;
 }
 
